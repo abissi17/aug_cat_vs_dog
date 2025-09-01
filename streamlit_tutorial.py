@@ -9,5 +9,3 @@ if uploaded_file is not None:
 
 st.video("https://www.ayclogic.com/wp-content/uploads/2025/07/Crossing-Street.mp4")
 
-def is_cat(f):
-    return f[0].isupper()
