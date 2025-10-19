@@ -7,5 +7,5 @@ uploaded_file = st.file_uploader("Choose as image...", type=["jpg", "png", "jpeg
 if uploaded_file is not None:
     st.image(uploaded_file, use_container_width=True)
 
-st.video("https://www.ayclogic.com/wp-content/uploads/2025/07/Crossing-Street.mp4")
+#st.video("https://www.ayclogic.com/wp-content/uploads/2025/07/Crossing-Street.mp4")
 

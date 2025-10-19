@@ -22,7 +22,9 @@ def predict(image):
 
 uploaded_file = st.file_uploader("Choose an image...", type=["jpg", "png", "jpeg"])
 if uploaded_file is not None:
-    st.image(uploaded_file,caption="Uploaded Image", use_container_width=True)
     prediction = predict(uploaded_file)
     st.write(prediction)
+    st.image(uploaded_file,caption="Uploaded Image", use_container_width=True)
+
+
 
